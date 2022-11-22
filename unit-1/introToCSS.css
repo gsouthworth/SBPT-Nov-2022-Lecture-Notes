@@ -1,0 +1,91 @@
+/* 
+    Building Blocks
+
+    selector {
+        [Decleration Block]
+        property: Value;
+    }
+
+    3 wyas to target: 
+    Element, Class, ID
+
+    Order of "Final Response" hierarchy
+    - !important
+    - Inline CSS
+    - ID Selectors
+    - CLass Selectors
+    - Element
+*/
+
+nav { 
+    /* we are targeting the element */
+    background-color: #d2d2d2;
+    /* 
+        -preset colors: basic colors, have access to color wheel
+        -rgb & rgba same plus alpha
+            -Alpha determines transparency
+            -ex: rgba(200, 15, 100, .5
+        -Hexidecimal
+            -16 digits: 0-9, A-F
+            -ex: #d2d2d2
+    */
+    overflow: hidden;
+}
+
+/* 
+    Targeting a Class - use a "."
+    Targeting an ID - Use "#"
+ */
+
+.btn {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#home {
+    float: left;
+    color: blue !important; 
+}
+
+/* 
+* Compound Operators: 
+    > Referes to Direct chicldren of an element
+    , Matching selector
+    + Immediate sibling of an element
+    ~ subsequent sibling of an element
+ */
+
+nav .btn{
+    /*  Points to the Nav and ANY class withing */    
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+div .paragraph > p {
+    /*  Targeting any div with a class "paragraph" that is holding a <p> element */
+    color: red;
+}
+
+.paragraph + div {
+    color: blue;
+    /* targeting first paragraph and then infuencing direst sibling, paragrpah after first */
+    /* only changing header coloring ecause we have already established color of paragraph above */
+}
+
+a:hover {
+    color: lightblue;
+    /* mousing over any anchor tag will change its color */
+    /* home button does not change because of !important tag */   
+}
+
+a:active {
+    color: purple;
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+    /* copy a block of code in VSCode 
+        -Opt+Shift+up/down arrow
+    Move a line of code
+        -Option+Up/Down arrow */
+}
