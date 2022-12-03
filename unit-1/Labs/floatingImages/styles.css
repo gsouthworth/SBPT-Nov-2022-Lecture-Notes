@@ -1,0 +1,45 @@
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+h1 {
+    text-align: center;
+    border-style: solid;
+    font-size: 36pt;
+    margin: 2em 2em;
+    font-family: cursive;
+    background-color: rgb(235, 235, 171);
+    margin-bottom: 5vh;
+}
+
+#image-one {
+    float: right;
+    margin: 10px;
+    padding-top: 15px;
+}
+
+main {
+    font-size: 18pt;
+    margin: 5em 5em;
+    border-style: double;
+    border-width: 3px;
+    margin-bottom: 2vh;
+    margin-top: 5vh;
+    background-color: rgb(235, 235, 171);
+}
+
+div {
+    font-size: 18pt;
+    margin: 5em 5em;
+    border-style: double;
+    border-width: 3px;
+    margin-top: 2vh;
+    background-color: rgb(235, 235, 171);
+}
+
+#image-two {
+    float: left;
+    size: 160px 120px;
+    margin: 10px;
+    padding-top: 20px;
+}

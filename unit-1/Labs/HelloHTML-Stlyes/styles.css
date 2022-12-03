@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    background-color: rgb(218, 126, 65);
+}
+
+
+header {
+    text-align: center;
+    font-family: cursive;
+}
+
+#welcome {
+    font-family: none;
+}
+
+nav {
+    background-color: lightgoldenrodyellow;
+    width: 100vw;
+    height: 3em;
+    text-align: center;
+    padding: 1em;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    margin: 5em;
+}
+
+
+img {
+    width: 750px;
+    height: auto;
+}
+
+div {
+    margin: 4em;
+    text-align: center;
+}
+
+main {
+    width: auto;
+    margin: 0;
+    text-align: center;
+}
+
+.btn {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(96, 4, 4);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn:hover {
+    color: rgb(17, 56, 27);
+}
+
+.btn:active {
+    text-shadow: 1px 1px rgb(72, 62, 62);
+}
+
+/* NH Page SPecific */
+
+#nh {
+    text-align: center;
+    margin: 2em 2em;
+}
+
+#nh-what {
+    text-align: center;
+    margin: 2em 2em;
+}
+
+/* about  */
+
+#about-us {
+    text-align: center;
+    margin: 2em 2em;
+}
+
+#contact {
+    text-align: center;
+    margin: 2em 2em;
+}
+
+#about-footer {
+    width: 100vw;
+    height: 275px;
+}
+
+/*  Vermont */
+
+#about-vt {
+    text-align: center;
+    margin: 2em 2em;
+}
+
+/* maine */
+
+#about-me {
+    text-align: center;
+    margin: 2em 2em;
+}
